@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "storageDriverName": "ontap-san",
+    "backendName": "BackendForSAN",
+    "managementLIF": "192.168.0.135",
+    "dataLIF": "192.168.0.45",
+    "svm": "svm1",
+    "igroupName": "k8s",
+    "username": "vsadmin",
+    "password": "Netapp1!",
+     "limitVolumeSize": "50Gi",
+      "defaults": {
+          "spaceReserve": "volume",
+          "snapshotPolicy": "default",
+          "snapshotReserve": "10"
+                   }
+}
